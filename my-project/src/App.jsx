@@ -10,28 +10,28 @@ function App() {
 
   return (
     <div className={`container ${theme}`}>
-            <div className="">
+      <div className="">
         <button onClick={notify}>Notify !</button>
         <ToastContainer />
       </div>
-<h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-      <div className="bg-blue-500 text-orange p-4 rounded">
-        Tailwind CSS Test
-      </div>
-      <button onClick={toggleTheme}>
-        Toggle Theme
-      </button>
+
       <section className="flexbox-item component1">
+      <button className="bg-sky-400 mt-5 w-32 h-12" onClick={toggleTheme}>
+          Toggle Theme
+        </button>
         <p className="almila">almila</p> 
         <div>
           <div>
             <h1 className="merhaba">I am a Frontend Developer...</h1> 
             <p>...who likes to craft solid and scalable frontend products with great user experiences.</p>
-            <p>Github Linkedin</p>
-          </div>
-          <p className="image">RESİM</p>
+            <div className="flex-grow"></div> 
+      
+      <div className="flex gap-3 justify-center mb-8" style={{ left: "40%" }}>
+        <button className="px-4 py-2 bg-blue-500 text-white rounded">Button 1</button>
+        <button className="px-4 py-2 bg-blue-500 text-white rounded">Button 2</button>
+      </div>
+    </div>
+          <p className="image ">RESİM</p>
         </div>
       </section>
       <section className="flexbox-item component2">

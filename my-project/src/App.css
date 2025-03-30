@@ -10,7 +10,7 @@
 
 .flexbox-item{ /* */
   width: 100vw;
-  height: 40vh;
+  height: 76vh;
   gap: 31px;
   display:flex;
   flex-direction: column;
@@ -35,7 +35,7 @@ body{ /**/
 
 button {
   padding: 10px 20px;
-  margin-top: 20px;
+  /* margin-top: 20px; -> mt-5 */
   cursor: pointer;
   background-color: #4CAF50;
   color: white;
