@@ -1,44 +1,61 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import { ToastContainer, toast } from 'react-toastify'; 
+import React, { useContext } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import { ThemeProvider, ThemeContext } from './contexts/ThemeContext';
 
 function App() {
-  const [count, setCount] = useState(0)
+
   const notify = () => toast('Wow so easy !');
+  const { theme, toggleTheme } = useContext(ThemeContext);
 
   return (
-    <>
-      <div>
-      <div className="">
+    <div className={`container ${theme}`}>
+            <div className="">
         <button onClick={notify}>Notify !</button>
         <ToastContainer />
       </div>
-      <h1 className="text-3xl font-bold underline">
+<h1 className="text-3xl font-bold underline">
         Hello world!
       </h1>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className="bg-blue-500 text-orange p-4 rounded">
+        Tailwind CSS Test
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+      <button onClick={toggleTheme}>
+        Toggle Theme
+      </button>
+      <section className="flexbox-item component1">
+        <p className="almila">almila</p> 
+        <div>
+          <div>
+            <h1 className="merhaba">I am a Frontend Developer...</h1> 
+            <p>...who likes to craft solid and scalable frontend products with great user experiences.</p>
+            <p>Github Linkedin</p>
+          </div>
+          <p className="image">RESİM</p>
+        </div>
+      </section>
+      <section className="flexbox-item component2">
+        <h1>SKILLS</h1>
+      </section>
+      <section className="flexbox-item component3">
+        PROFILEINFOS : basic infos and About me infos
+      </section>
+      <section className="flexbox-item component4">
+        Projects infos and descs
+      </section>
+      <section className="flexbox-item component5">
+        send me message partition
+      </section>
+
+    </div>
+    
   )
 }
 
-export default App
+const AppWithTheme = () => (
+  <ThemeProvider>
+    <App />
+  </ThemeProvider>
+);
+
+export default AppWithTheme;
