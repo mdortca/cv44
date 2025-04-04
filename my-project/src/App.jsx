@@ -16,16 +16,17 @@ function App() {
         <button onClick={notify}>Notify !</button>
         <ToastContainer />
       </div>  */}
-      <section className=" flex gap-0 overflow-hidden flexbox-item component1 w-full h-16 bg-purple-400" style={{ background: 'linear-gradient(to right, #4731D3 76%, #CBF281 76%)' }}>       
-          <div className="p-5 flex gap-49 almila-toggle ml-20 mt-10 mb-10">
+      <section className="flex gap-0 overflow-hidden w-[100vw] h-[76vh] flex-col component1 w-full h-16 bg-purple-400" style={{ background: 'linear-gradient(to right, #4731D3 76%, #CBF281 76%)' }}>       
+        <div className="flex flex-col mt-10 ml-10 gap-24 ml-31">    
+          <div className=" flex gap-49 almila-toggle   ">
             {/* <PersonalInformation/> */}
             <div className="almila">
-              <p className="pt-4 font-inter text-[32px] leading-[72px] text-[#CBF281]">almila</p>
+              <p className="font-inter text-[32px] leading-[72px] text-[#CBF281] tracking-normal font-bold">sedat</p>
             </div>
-            <div className="button-label ml-auto pr-29">
-              <button className="bg-sky-400 mt-5 w-32 h-12" onClick={toggleTheme}>
+            <div className="button-label ml-auto pr-29 flex flex-row">
+              <p className="bg-sky-400 mt-5 w-32 h-12" onClick={toggleTheme}>
                 Toggle Theme
-              </button>
+              </p>
                         <label onClick={toggleTheme} className="relative inline-flex items-center cursor-pointer">
                           <input
                             type="checkbox"
@@ -42,32 +43,33 @@ function App() {
               </div>
 
           </div>
-          <div className="px-10 h-full w-full iamfrontend-picture">
-            <div className="flex overflow-hidden ">
-              <div className="iamfrontend">
-                <h1 className="merhaba">I am a Frontend Developer...</h1> 
-                <p>...who likes to craft solid and scalable frontend products with great user experiences.</p>
-                <div className="flex gap-4 pb-0 ml-[-0%] ">
-                  <button className=" w-[278px] h-[52px] bg-blue-500 text-white rounded">Github</button>
-                  <button className=" w-[278px] h-[52px]">Linkedin</button>
-                </div>
-              </div>
-              <div className="picture ml-[+13%]">
-              <img src={profilePhoto} alt="Profile"/>
+
+          <div className="flex items-end overflow-hidden mb-0 pb-0">
+            <div className="iamfrontend ">
+              <h1 className="merhaba text-[#CBF281] font-inter font-bold text-[54px] leading-[1.1] tracking-normal">I am a Backend Developer...</h1> 
+              <p>...who likes to craft solid and scalable frontend products with great user experiences.</p>
+              <div className="flex gap-4 pb-0 ml-[-0%]">
+                <button className=" w-[278px] h-[52px] bg-blue-500 text-white rounded">Github</button>
+                <button className=" w-[278px] h-[52px]">Linkedin</button>
               </div>
             </div>
+            <div className="object-cover w-64 h-64 picture ml-[+13%]">
+            <img src={profilePhoto} alt="Profile"/>
+            </div>
           </div>
+
+        </div>  
       </section>
-      <section className="overflow-hidden flexbox-item component2">
+      <section className="overflow-hidden w-[100vw] h-[76vh] flex flex-col component2">
         <h1>SKILLS</h1>
       </section>
-      <section className="overflow-hidden flexbox-item component3 bg-[#4731D3]">
+      <section className="overflow-hidden w-[100vw] h-[76vh] flex flex-col component3 bg-[#4731D3]">
         PROFILEINFOS : basic infos and About me infos
       </section>
-      <section className="overflow-hidden flexbox-item component4 bg-[#CBF281]">
+      <section className="overflow-hidden w-[100vw] h-[76vh] flex flex-col component4 bg-[#CBF281]">
         Projects infos and descs
       </section>
-      <section className="overflow-hidden flexbox-item component5">
+      <section className="overflow-hidden w-[100vw] h-[76vh] flex flex-col component5">
         send me message partition
       </section>
 

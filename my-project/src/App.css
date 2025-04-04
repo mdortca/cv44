@@ -1,22 +1,23 @@
 
 .container {
   background-color: white;
-  /* color: black; */
+  color: black;
+  /* 
   font-family: Arial, sans-serif;
 
   /* display: flex; */
   /* flex-direction: column; */
 }
 
-.flexbox-item{ /* */
+/* .flexbox-item{
   width: 100vw;
   height: 76vh;
-  /* gap: 31px; */
   display:flex;
-  flex-direction: column;
-  
-  /* height: 20%;  hepsini eşitledi */
-} 
+  flex-direction: column; */
+
+  /* gap: 31px; */
+  /* height: 20%;  hepsini eşitledi 
+}*/
 
 section{/**/
   /*border: 4px solid black;*/
