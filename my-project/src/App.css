@@ -1,17 +1,17 @@
 
 .container {
   background-color: white;
-  color: black;
+  /* color: black; */
   font-family: Arial, sans-serif;
 
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
 }
 
 .flexbox-item{ /* */
   width: 100vw;
   height: 76vh;
-  gap: 31px;
+  /* gap: 31px; */
   display:flex;
   flex-direction: column;
   
@@ -19,8 +19,8 @@
 } 
 
 section{/**/
-  border: 4px solid black;
-  overflow: hidden;
+  /*border: 4px solid black;*/
+  /* overflow: hidden; */
 }
 body{ /**/
   margin:0;
@@ -34,7 +34,7 @@ body{ /**/
 }
 
 button {
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   /* margin-top: 20px; -> mt-5 */
   cursor: pointer;
   background-color: #4CAF50;
