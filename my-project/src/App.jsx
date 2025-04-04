@@ -17,7 +17,7 @@ function App() {
         <ToastContainer />
       </div>  */}
       <section className="flex gap-0 overflow-hidden w-[100vw] h-[76vh] flex-col component1 w-full h-16 bg-purple-400" style={{ background: 'linear-gradient(to right, #4731D3 76%, #CBF281 76%)' }}>       
-        <div className="flex flex-col mt-10 ml-10 gap-24 ml-31">    
+        <div className="flex flex-col overflow-hidden mt-13 ml-40 gap-24 ml-31">    
           <div className=" flex gap-49 almila-toggle   ">
             {/* <PersonalInformation/> */}
             <div className="almila">
@@ -45,16 +45,16 @@ function App() {
           </div>
 
           <div className="flex items-end overflow-hidden mb-0 pb-0">
-            <div className="iamfrontend ">
+            <div className="flex flex-col gap-y-12 w-[40%] justify-between iamfrontend ">
               <h1 className="merhaba text-[#CBF281] font-inter font-bold text-[54px] leading-[1.1] tracking-normal">I am a Backend Developer...</h1> 
-              <p>...who likes to craft solid and scalable frontend products with great user experiences.</p>
+              <p className="font-inter font-normal text-[24px] leading-[100%] tracking-normal text-white">...who likes to craft solid and scalable frontend products with great user experiences.</p>
               <div className="flex gap-4 pb-0 ml-[-0%]">
-                <button className=" w-[278px] h-[52px] bg-blue-500 text-white rounded">Github</button>
-                <button className=" w-[278px] h-[52px]">Linkedin</button>
+                <button className=" w-[127px] h-[52px] bg-blue-500 text-white rounded">Github</button>
+                <button className=" w-[127px] h-[52px]">Linkedin</button>
               </div>
             </div>
-            <div className="object-cover w-64 h-64 picture ml-[+13%]">
-            <img src={profilePhoto} alt="Profile"/>
+            <div className="object-cover w-64 h-64 picture ml-[+24%] ">
+            <img className="h-full "src={profilePhoto} alt="Profile"/>
             </div>
           </div>
 
