@@ -149,12 +149,37 @@ Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam t
       <section className="overflow-hidden w-[100vw] h-[140vh] flex flex-col gap-[13px] component4 bg-[#CBF281]">
         <p className="font-inter font-bold text-[48px] leading-[1] tracking-[1%] text-[#4731D3] mt-[85px] mx-[290px]">Projects</p>
         <div className="flex flex-col items-center justify-center gap-[20px] y-[170px]">
-          <div className="w-[960px] h-[364px] bg-[#FFFFFF] rounded-[16px]">
+          <div className="flex w-[960px] h-[364px] bg-[#FFFFFF] rounded-[16px]">
             <img src={foto1} alt="" />
-            <div></div>
+            <div>
+              <p></p>
+              <p></p>
+              <div>
+                <button></button>
+                <button></button>
+                <button></button>
+              </div>
+              <div>
+                <p></p>
+                <p></p>
+              </div>
+            </div>
           </div>
-          <div className="w-[960px] h-[364px] bg-[#FFFFFF] rounded-[16px]">
+          <div className="flex w-[960px] h-[364px] bg-[#FFFFFF] rounded-[16px]">
             <img src={foto2} alt="" />
+            <div>
+              <p></p>
+              <p></p>
+              <div>
+                <button></button>
+                <button></button>
+                <button></button>
+              </div>
+              <div>
+                <p></p>
+                <p></p>
+              </div>
+            </div>
             <div></div>
           </div>
         </div>
