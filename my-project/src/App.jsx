@@ -4,7 +4,7 @@ import React, { useContext } from 'react';
 import { ThemeProvider, ThemeContext } from './contexts/ThemeContext';
 import PersonalInformation from './components/PersonalInformation';
 import  profilePhoto  from './assets/profilephoto.jpg';
-import jsLogo from './assets/js-logo1.png';
+import jsLogo from './assets/js-logo-2.svg';
 import reactLogo from './assets/react.svg';
 import reduxLogo from './assets/reduxlogo.png';
 
@@ -116,11 +116,11 @@ function App() {
         Projects infos and descs
       </section>
       <section className="overflow-hidden w-[100vw] h-[58vh] flex flex-col component5 bg-[#F9F9F9]">
-        <div className="m-auto bg-red-200 flex flex-col items-center gap-[24px]">
+        <div className="m-auto  flex flex-col items-center gap-[24px]">
           <p className="font-inter font-bold text-[48px] leading-[72px] tracking-normal text-[#4731D3]">Send me a Message!</p>
-          <p>Got a question or proposal, or just want to say hello? Go ahead.</p>
-          <p>sedatsahin224444@gmail.com</p>
-          <div className="flex flex-row gap-[24px]">
+          <p className="font-inter font-normal text-[24px] leading-[150%] tracking-normal pl-[80px] pr-[80px] text-[#120B39]">Got a question or proposal, or just want to say hello? Go ahead.</p>
+          <p className="font-inter font-medium text-[20px] leading-[100%] tracking-[5%] underline decoration-solid  text-[#4731D3] decoration-[0%]">sedatsahin224444@gmail.com</p>
+          <div className="flex flex-row gap-[24px] pb-[20px]">
             <img src={reactLogo} alt="" />
             <img src={reactLogo} alt="" />
             <img src={reactLogo} alt="" />
