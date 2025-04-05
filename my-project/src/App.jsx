@@ -110,7 +110,7 @@ function App() {
         </div>
       </section>
       <section className="overflow-hidden w-[100vw] h-[76vh] flex flex-col component3 bg-[#4731D3]">
-        <p>Profile</p>
+        <p className="font-inter font-bold text-[48px] leading-[100%] tracking-[1%] text-[#CBF281]">Profile</p>
       </section>
       <section className="overflow-hidden w-[100vw] h-[94vh] flex flex-col component4 bg-[#CBF281]">
         Projects infos and descs
