@@ -112,11 +112,21 @@ function App() {
       <section className="overflow-hidden w-[100vw] h-[76vh] flex flex-col component3 bg-[#4731D3]">
         PROFILEINFOS : basic infos and About me infos
       </section>
-      <section className="overflow-hidden w-[100vw] h-[76vh] flex flex-col component4 bg-[#CBF281]">
+      <section className="overflow-hidden w-[100vw] h-[94vh] flex flex-col component4 bg-[#CBF281]">
         Projects infos and descs
       </section>
-      <section className="overflow-hidden w-[100vw] h-[76vh] flex flex-col component5">
-        send me message partition
+      <section className="overflow-hidden w-[100vw] h-[58vh] flex flex-col component5 bg-[#F9F9F9]">
+        <div className="m-auto bg-red-200 flex flex-col items-center gap-[24px]">
+          <p>Send me a Message!</p>
+          <p>Got a question or proposal, or just want to say hello? Go ahead.</p>
+          <p>sedatsahin224444@gmail.com</p>
+          <div className="flex flex-row gap-[24px]">
+            <img src={reactLogo} alt="" />
+            <img src={reactLogo} alt="" />
+            <img src={reactLogo} alt="" />
+            <img src={reactLogo} alt="" />
+          </div>
+        </div>
       </section>
 
     </div>
