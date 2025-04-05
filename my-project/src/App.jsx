@@ -12,6 +12,12 @@ import visiual from './assets/visiualstudio.png';
 import node from './assets/node.png';
 import figmaLogo from './assets/figma.png';
 import profileImg from './assets/profileimg.png';
+import twitter from './assets/twitter.png';
+import instagram from './assets/instagram.png';
+import codepen from './assets/codepen.png';
+import sign from './assets/at-sign.png';
+import foto1 from './assets/foto1.png';
+import foto2 from './assets/foto2.png';
 //import rect from './assets/rect4.png';
 
 function App() {
@@ -140,8 +146,18 @@ Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam t
           </div>
         </div>
       </section>
-      <section className="overflow-hidden w-[100vw] h-[94vh] flex flex-col component4 bg-[#CBF281]">
-        Projects infos and descs
+      <section className="overflow-hidden w-[100vw] h-[140vh] flex flex-col gap-[13px] component4 bg-[#CBF281]">
+        <p className="font-inter font-bold text-[48px] leading-[1] tracking-[1%] text-[#4731D3] mt-[85px] mx-[290px]">Projects</p>
+        <div className="flex flex-col items-center justify-center gap-[20px] y-[170px]">
+          <div className="w-[960px] h-[364px] bg-[#FFFFFF] rounded-[16px]">
+            <img src={foto1} alt="" />
+            <div></div>
+          </div>
+          <div className="w-[960px] h-[364px] bg-[#FFFFFF] rounded-[16px]">
+            <img src={foto2} alt="" />
+            <div></div>
+          </div>
+        </div>
       </section>
       <section className="overflow-hidden w-[100vw] h-[58vh] flex flex-col component5 bg-[#F9F9F9]">
         <div className="m-auto  flex flex-col items-center gap-[24px]">
@@ -149,14 +165,13 @@ Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam t
           <p className="font-inter font-normal text-[24px] leading-[150%] tracking-normal pl-[80px] pr-[80px] text-[#120B39]">Got a question or proposal, or just want to say hello? Go ahead.</p>
           <p className="font-inter font-medium text-[20px] leading-[100%] tracking-[5%] underline decoration-solid  text-[#4731D3] decoration-[0%]">sedatsahin224444@gmail.com</p>
           <div className="flex flex-row gap-[24px] pb-[20px]">
-            <img src={reactLogo} className="w-[35px] h-[35px]" alt="" />
-            <img src={reactLogo} className="w-[35px] h-[35px]" alt="" />
-            <img src={reactLogo} className="w-[35px] h-[35px]" alt="" />
-            <img src={reactLogo} className="w-[35px] h-[35px]" alt="" />
+            <img src={twitter} className="w-[35px] h-[35px]" alt="" />
+            <img src={codepen}className="w-[35px] h-[35px]" alt="" />
+            <img src={sign} className="w-[35px] h-[35px]" alt="" />
+            <img src={instagram} className="w-[35px] h-[35px]" alt="" />
           </div>
         </div>
-      </section>
-
+      </section>    
     </div>
     
   )
