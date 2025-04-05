@@ -117,7 +117,7 @@ function App() {
       </section>
       <section className="overflow-hidden w-[100vw] h-[58vh] flex flex-col component5 bg-[#F9F9F9]">
         <div className="m-auto bg-red-200 flex flex-col items-center gap-[24px]">
-          <p>Send me a Message!</p>
+          <p className="font-inter font-bold text-[48px] leading-[72px] tracking-normal text-[#4731D3]">Send me a Message!</p>
           <p>Got a question or proposal, or just want to say hello? Go ahead.</p>
           <p>sedatsahin224444@gmail.com</p>
           <div className="flex flex-row gap-[24px]">
