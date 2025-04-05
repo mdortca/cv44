@@ -23,7 +23,7 @@ function App() {
             <div className="almila">
               <p className="font-inter text-[32px] leading-[72px] text-[#CBF281] tracking-normal font-bold">sedat</p>
             </div>
-            <div className="button-label ml-auto pr-29 flex flex-row">
+            <div className="button-label ml-auto mr-[58] pr-29 gap-[13px] pr-[200px] flex flex-row">
               <p className="bg-sky-400 mt-5 w-32 h-12" onClick={toggleTheme}>
                 Toggle Theme
               </p>
@@ -43,18 +43,17 @@ function App() {
               </div>
 
           </div>
-
           <div className="flex items-end overflow-hidden mb-0 pb-0">
             <div className="flex flex-col gap-y-12 w-[40%] justify-between iamfrontend ">
               <h1 className="merhaba text-[#CBF281] font-inter font-bold text-[54px] leading-[1.1] tracking-normal">I am a Backend Developer...</h1> 
               <p className="font-inter font-normal text-[24px] leading-[100%] tracking-normal text-white">...who likes to craft solid and scalable frontend products with great user experiences.</p>
-              <div className="flex gap-4 pb-0 ml-[-0%]">
-                <button className=" w-[127px] h-[52px] bg-blue-500 text-white rounded">Github</button>
-                <button className=" w-[127px] h-[52px]">Linkedin</button>
+              <div className="flex gap-[10px] pb-0 ml-[-0%]">
+                <button className=" border border-1 border-indigo-800 pt-[12px] pb-[12px] pl-[12px] pr-[20px] w-[127px] h-[52px] text-[#3730A3] rounded-[6px]">Github</button>
+                <button className=" border border-1 border-indigo-800 pt-[12px] pb-[12px] pl-[12px] pr-[20px] w-[127px] h-[52px] text-[#3730A3] rounded-[6px]">Linkedin</button>
               </div>
             </div>
-            <div className="object-cover w-64 h-64 picture ml-[+24%] ">
-            <img className="h-full "src={profilePhoto} alt="Profile"/>
+            <div className="object-cover w-[350px] w-64 h-full picture ml-[+24%] ">
+            <img className="h-full w-full object-cover w-[350px]" src={profilePhoto} alt="Profile"/>
             </div>
           </div>
 
