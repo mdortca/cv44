@@ -4,6 +4,13 @@ import React, { useContext } from 'react';
 import { ThemeProvider, ThemeContext } from './contexts/ThemeContext';
 import PersonalInformation from './components/PersonalInformation';
 import  profilePhoto  from './assets/profilephoto.jpg';
+import jsLogo from './assets/js-logo1.png';
+import reactLogo from './assets/react.svg';
+import reduxLogo from './assets/reduxlogo.png';
+
+import visiual from './assets/visiualstudio.png';
+import node from './assets/node.png';
+import figmaLogo from './assets/figma.png';
 
 function App() {
 
@@ -62,10 +69,44 @@ function App() {
         </div>  
       </section>
       <section className="overflow-hidden w-[100vw] h-[76vh] flex flex-col component2">
-        <div className="w-[960px] h-[430px] bg-gray-200 m-auto">
+        <div className="w-[960px] h-[430px]  m-auto flex justify-between overflow-hidden">
           <p className="font-inter font-bold text-[48px] leading-[100%] tracking-[1%] text-[#4832D3] w-[128px] h-[58px]">Skills</p>
-          <div id="skillBox1" className=""></div>
-          <div id="skillBox2" className=""></div>
+          <div id="skillBox1" className="flex flex-col justify-between w-[290px] h-[430]">
+
+            <div className=" flex items-center w-[290px] h-[120px] overflow-hidden">
+              <img src={jsLogo} alt="javascript Image" className="w-[120px] h-[120px] border border-4" />
+              <p className="ml-4 font-inter font-medium text-[24px] leading-[150%] tracking-normal uppercase text-[#777777]">JAVASCRIPT</p>
+            </div>
+
+            <div className="flex items-center w-[290px] h-[120px] overflow-hidden">
+              <img src={reactLogo} alt="react Image" className="w-[120px] h-[120px] border border-4 " />
+              <p className="ml-4 font-inter font-medium text-[24px] leading-[150%] tracking-normal uppercase text-[#777777]">REACT</p>
+            </div>
+
+            <div className="flex items-center w-[290px] h-[120px] overflow-hidden">
+              <img src={reduxLogo} alt="redux Image" className="w-[120px] h-[120px] border border-4" />
+              <p className="ml-4 font-inter font-medium text-[24px] leading-[150%] tracking-normal uppercase text-[#777777]">REDUX</p>
+            </div>
+          
+          </div>
+          <div id="skillBox2" className="flex flex-col justify-between w-[251px] h-[430]">
+
+            <div className="flex items-center w-[290px] h-[120px] overflow-hidden">
+              <img src={node} alt="Figma Image" className="w-[120px] h-[120px] border border-4" />
+              <p className="ml-4 font-inter font-medium text-[24px] leading-[150%] tracking-normal uppercase text-[#777777]">NODE</p>
+            </div>
+
+            <div className="flex items-center w-[290px] h-[120px] overflow-hidden">
+              <img src={visiual} alt="Figma Image" className="w-[120px] h-[120px] border border-4" />
+              <p className="ml-4 font-inter font-medium text-[24px] leading-[150%] tracking-normal uppercase text-[#777777]">VS CODE</p>
+            </div>
+
+            <div className="flex items-center w-[290px] h-[120px] overflow-hidden">
+              <img src={figmaLogo} alt="Figma Image" className="w-[120px] h-[120px] border border-4" />
+              <p className="ml-4 font-inter font-medium text-[24px] leading-[150%] tracking-normal uppercase text-[#777777]">FIGMA</p>
+            </div>
+
+          </div>
         </div>
       </section>
       <section className="overflow-hidden w-[100vw] h-[76vh] flex flex-col component3 bg-[#4731D3]">
