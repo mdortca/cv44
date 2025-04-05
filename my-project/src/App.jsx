@@ -132,7 +132,12 @@ function App() {
             </div>
           </div>
           <img src={profileImg} className="rounded-[10px]" alt="" />
-          <div className="w-[300px] h-[290.6848449707031px] bg-red-200"></div>
+          <div className="flex flex-col gap-[44px] w-[300px] h-[290.6848449707031px]">
+            <p className="font-inter font-medium text-[30px] leading-tight tracking-tight text-white">About Me</p>
+            <p className="whitespace-pre-line font-inter font-normal text-base leading-[1.5] tracking-normal text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut, odit laborum aliquam voluptatum nisi mollitia.
+              <br/><br/>
+Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam! </p>
+          </div>
         </div>
       </section>
       <section className="overflow-hidden w-[100vw] h-[94vh] flex flex-col component4 bg-[#CBF281]">
