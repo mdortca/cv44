@@ -4,13 +4,15 @@ import React, { useContext } from 'react';
 import { ThemeProvider, ThemeContext } from './contexts/ThemeContext';
 import PersonalInformation from './components/PersonalInformation';
 import  profilePhoto  from './assets/profilephoto.jpg';
-import jsLogo from './assets/js-logo-2.svg';
-import reactLogo from './assets/react.svg';
+import jsLogo from './assets/js-logo1.png';
+import reactLogo from './assets/Rectangle.png';
 import reduxLogo from './assets/reduxlogo.png';
 
 import visiual from './assets/visiualstudio.png';
 import node from './assets/node.png';
 import figmaLogo from './assets/figma.png';
+import profileImg from './assets/profileimg.png';
+//import rect from './assets/rect4.png';
 
 function App() {
 
@@ -74,17 +76,17 @@ function App() {
           <div id="skillBox1" className="flex flex-col justify-between w-[290px] h-[430]">
 
             <div className=" flex items-center w-[290px] h-[120px] overflow-hidden">
-              <img src={jsLogo} alt="javascript Image" className="w-[120px] h-[120px] border border-4" />
+              <img src={jsLogo} alt="javascript Image" className="w-[120px] h-[120px]" />
               <p className="ml-4 font-inter font-medium text-[24px] leading-[150%] tracking-normal uppercase text-[#777777]">JAVASCRIPT</p>
             </div>
 
             <div className="flex items-center w-[290px] h-[120px] overflow-hidden">
-              <img src={reactLogo} alt="react Image" className="w-[120px] h-[120px] border border-4 " />
+              <img src={reactLogo} alt="react Image" className="w-[120px] h-[120px]" />
               <p className="ml-4 font-inter font-medium text-[24px] leading-[150%] tracking-normal uppercase text-[#777777]">REACT</p>
             </div>
 
             <div className="flex items-center w-[290px] h-[120px] overflow-hidden">
-              <img src={reduxLogo} alt="redux Image" className="w-[120px] h-[120px] border border-4" />
+              <img src={reduxLogo} alt="redux Image" className="w-[120px] h-[120px]" />
               <p className="ml-4 font-inter font-medium text-[24px] leading-[150%] tracking-normal uppercase text-[#777777]">REDUX</p>
             </div>
           
@@ -92,17 +94,17 @@ function App() {
           <div id="skillBox2" className="flex flex-col justify-between w-[251px] h-[430]">
 
             <div className="flex items-center w-[290px] h-[120px] overflow-hidden">
-              <img src={node} alt="Figma Image" className="w-[120px] h-[120px] border border-4" />
+              <img src={node} alt="Figma Image" className="w-[120px] h-[120px]" />
               <p className="ml-4 font-inter font-medium text-[24px] leading-[150%] tracking-normal uppercase text-[#777777]">NODE</p>
             </div>
 
             <div className="flex items-center w-[290px] h-[120px] overflow-hidden">
-              <img src={visiual} alt="Figma Image" className="w-[120px] h-[120px] border border-4" />
+              <img src={visiual} alt="Figma Image" className="w-[120px] h-[120px]" />
               <p className="ml-4 font-inter font-medium text-[24px] leading-[150%] tracking-normal uppercase text-[#777777]">VS CODE</p>
             </div>
 
             <div className="flex items-center w-[290px] h-[120px] overflow-hidden">
-              <img src={figmaLogo} alt="Figma Image" className="w-[120px] h-[120px] border border-4" />
+              <img src={figmaLogo} alt="Figma Image" className="w-[120px] h-[120px]" />
               <p className="ml-4 font-inter font-medium text-[24px] leading-[150%] tracking-normal uppercase text-[#777777]">FIGMA</p>
             </div>
 
@@ -110,7 +112,28 @@ function App() {
         </div>
       </section>
       <section className="overflow-hidden w-[100vw] h-[76vh] flex flex-col component3 bg-[#4731D3]">
-        <p className="font-inter font-bold text-[48px] leading-[100%] tracking-[1%] text-[#CBF281]">Profile</p>
+        <p className="font-inter font-bold text-[48px] leading-[100%] tracking-[1%] text-[#CBF281] ml-[240px] mt-[103px]">Profile</p>
+        <div className="flex gap-[30px] ml-[240px] mt-[24px]">
+          <div className="w-[300px] h-[290.6848449707031px] ">
+            <p className="font-inter font-medium text-[30px] leading-[28px] tracking-normal text-white">Basic Information</p>
+            <div className="flex flex-row gap-[24px] mt-[24px]">
+              <div className="w-[101px] h-[222px] flex flex-col space-y-[13px]">
+                <p className="font-inter font-semibold text-[16px] leading-[150%] tracking-[1%] text-[#CBF281]">Doğum Tarihi</p>
+                <p className="font-inter font-semibold text-[16px] leading-[150%] tracking-[1%] text-[#CBF281]">İkamet Şehri</p>
+                <p className="font-inter font-semibold text-[16px] leading-[150%] tracking-[1%] text-[#CBF281]">Eğitim Durumu</p>
+                <p className="font-inter font-semibold text-[16px] leading-[150%] tracking-[1%] text-[#CBF281]">Tercih Ettiği Rol</p>
+              </div>
+              <div className="flex flex-col space-y-[31px]">
+                <p className="font-inter font-normal text-[16px] leading-[150%] tracking-[1%] text-white">04.06.1995</p>
+                <p className="mt-[67px] font-inter font-normal text-[16px] leading-[150%] tracking-[1%] text-white">İstanbul</p>
+                <p className="font-inter font-normal text-[16px] leading-[150%] tracking-[1%] text-white">Trakya Üni. Bilg. Müh. 2020/Lisans</p>
+                <p className="font-inter font-normal text-[16px] leading-[150%] tracking-[1%] text-white">Backend</p>
+              </div>
+            </div>
+          </div>
+          <img src={profileImg} className="rounded-[10px]" alt="" />
+          <div className="w-[300px] h-[290.6848449707031px] bg-red-200"></div>
+        </div>
       </section>
       <section className="overflow-hidden w-[100vw] h-[94vh] flex flex-col component4 bg-[#CBF281]">
         Projects infos and descs
@@ -121,10 +144,10 @@ function App() {
           <p className="font-inter font-normal text-[24px] leading-[150%] tracking-normal pl-[80px] pr-[80px] text-[#120B39]">Got a question or proposal, or just want to say hello? Go ahead.</p>
           <p className="font-inter font-medium text-[20px] leading-[100%] tracking-[5%] underline decoration-solid  text-[#4731D3] decoration-[0%]">sedatsahin224444@gmail.com</p>
           <div className="flex flex-row gap-[24px] pb-[20px]">
-            <img src={reactLogo} alt="" />
-            <img src={reactLogo} alt="" />
-            <img src={reactLogo} alt="" />
-            <img src={reactLogo} alt="" />
+            <img src={reactLogo} className="w-[35px] h-[35px]" alt="" />
+            <img src={reactLogo} className="w-[35px] h-[35px]" alt="" />
+            <img src={reactLogo} className="w-[35px] h-[35px]" alt="" />
+            <img src={reactLogo} className="w-[35px] h-[35px]" alt="" />
           </div>
         </div>
       </section>
