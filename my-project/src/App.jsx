@@ -152,32 +152,32 @@ Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam t
           <div className="flex w-[960px] h-[364px] bg-[#FFFFFF] rounded-[16px]">
             <img src={foto1} alt="" />
             <div>
-              <p></p>
-              <p></p>
+              <p>Workintech</p>
+              <p>A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.</p>
               <div>
-                <button></button>
-                <button></button>
-                <button></button>
+                <button className="bg-[#4731D3]">react</button>
+                <button className="bg-[#4731D3]">redux</button>
+                <button className="bg-[#4731D3]">vercel</button>
               </div>
-              <div>
-                <p></p>
-                <p></p>
+              <div className="flex flex-row">
+                <p>View Site</p>
+                <p>Github</p>
               </div>
             </div>
           </div>
           <div className="flex w-[960px] h-[364px] bg-[#FFFFFF] rounded-[16px]">
             <img src={foto2} alt="" />
             <div>
-              <p></p>
-              <p></p>
+              <p>Journey</p>
+              <p>A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.</p>
               <div>
-                <button></button>
-                <button></button>
-                <button></button>
+                <button className="bg-[#4731D3]">react</button>
+                <button className="bg-[#4731D3]">redux</button>
+                <button className="bg-[#4731D3]">vercel</button>
               </div>
-              <div>
-                <p></p>
-                <p></p>
+              <div className="flex flex-row">
+                <p>View Site</p>
+                <p>Github</p>
               </div>
             </div>
             <div></div>
