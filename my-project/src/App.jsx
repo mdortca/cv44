@@ -149,35 +149,35 @@ Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam t
       <section className="overflow-hidden w-[100vw] h-[140vh] flex flex-col gap-[13px] component4 bg-[#CBF281]">
         <p className="font-inter font-bold text-[48px] leading-[1] tracking-[1%] text-[#4731D3] mt-[85px] mx-[290px]">Projects</p>
         <div className="flex flex-col items-center justify-center gap-[20px] y-[170px]">
-          <div className="flex w-[960px] h-[364px] bg-[#FFFFFF] rounded-[16px]">
-            <img src={foto1} alt="" />
-            <div>
-              <p>Workintech</p>
+          <div className="flex justify-center items-center w-[960px] h-[376px] bg-[#FFFFFF] rounded-[16px]">
+            <img src={foto1} className="h-[360px] w-[360px]" alt="" />
+            <div className="flex flex-col gap-[24px] pt-[8px] pr-[18px] pb-[9px] pl-[18px]">
+              <p className="font-inter font-bold text-4xl leading-none tracking-tight text-[#4338CA]">Workintech</p>
               <p>A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.</p>
-              <div>
-                <button className="bg-[#4731D3]">react</button>
-                <button className="bg-[#4731D3]">redux</button>
-                <button className="bg-[#4731D3]">vercel</button>
+              <div className="flex w-[68px] h-[31px] rounded-[23px] gap-[10px]">
+                <button className="bg-[#4731D3]  flex justify-center items-center">react</button>
+                <button className="bg-[#4731D3]  flex justify-center items-center">redux</button>
+                <button className="bg-[#4731D3]  flex justify-center items-center">vercel</button>
               </div>
-              <div className="flex flex-row">
-                <p>View Site</p>
-                <p>Github</p>
+              <div className="flex flex-row gap-[24px]">
+                <p className="font-inter font-medium text-base leading-4 tracking-tight underline decoration-solid text-[#120B39]">View Site</p>
+                <p className="font-inter font-medium text-base leading-4 tracking-tight underline decoration-solid text-[#120B39]">Github</p>
               </div>
             </div>
           </div>
-          <div className="flex w-[960px] h-[364px] bg-[#FFFFFF] rounded-[16px]">
-            <img src={foto2} alt="" />
-            <div>
-              <p>Journey</p>
+          <div className="flex justify-center items-center w-[960px] h-[364px] bg-[#FFFFFF] rounded-[16px]">
+            <img src={foto2} className="h-[360px] w-[360px]" alt="" />
+            <div className="flex flex-col gap-[24px] pt-[8px] pr-[18px] pb-[9px] pl-[18px]">
+              <p className="font-inter font-bold text-4xl leading-none tracking-tight text-[#4338CA]">Journey</p>
               <p>A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.</p>
-              <div>
-                <button className="bg-[#4731D3]">react</button>
-                <button className="bg-[#4731D3]">redux</button>
-                <button className="bg-[#4731D3]">vercel</button>
+              <div className="flex w-[68px] h-[31px] rounded-[23px] gap-[10px]">
+                <button className="bg-[#4731D3] flex justify-center items-center">react</button>
+                <button className="bg-[#4731D3] flex justify-center items-center">redux</button>
+                <button className="bg-[#4731D3] flex justify-center items-center">vercel</button>
               </div>
-              <div className="flex flex-row">
-                <p>View Site</p>
-                <p>Github</p>
+              <div className="flex flex-row gap-[24px]">
+                <p className="font-inter font-medium text-base leading-4 tracking-tight underline decoration-solid text-[#120B39]">View Site</p>
+                <p className="font-inter font-medium text-base leading-4 tracking-tight underline decoration-solid text-[#120B39]">Github</p>
               </div>
             </div>
             <div></div>
