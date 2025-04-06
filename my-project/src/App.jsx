@@ -38,7 +38,7 @@ function App() {
             <div className="almila">
               <p className="font-inter text-[32px] leading-[72px] text-[#CBF281] tracking-normal font-bold">sedat</p>
             </div>
-            <div className="button-label ml-auto mr-[58] pr-29 gap-[44px] pr-[200px] flex flex-row">
+            <div className="button-label ml-auto mr-[24px] pr-29 gap-[44px] pr-[200px] flex flex-row">
               {/* <label onClick={toggleTheme} className="relative inline-flex items-center cursor-pointer">
                 <input
                   type="checkbox"
@@ -53,7 +53,7 @@ function App() {
                 </span>
               </label> */}
               <p className="relative inline-flex items-center cursor-pointer">Dil</p>
-              <p className="bg-sky-400 mt-5 w-32 h-12" onClick={toggleTheme}>
+              <p className=" mt-5 w-32 h-12" onClick={toggleTheme}>
                 Dark Mode
               </p>
  
